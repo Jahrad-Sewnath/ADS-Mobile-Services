@@ -1,0 +1,244 @@
+<!-- CONTACT.HTML -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - ADS Mobile Services</title>
+    <meta name="description" content="Contact ADS Mobile Services for auto repair services. Call for immediate service or request a free quote online.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>🔧 ADS Mobile Services</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="services.html" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link active">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Contact ADS Mobile Services</h1>
+            <p>Get in touch for immediate service or request a free quote</p>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="contact-content">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-section">
+                    <h2>Request a Free Quote</h2>
+                    <!-- Link for formspree: action="https://formspree.io/f/xpwjbjyb" -->
+                    <form class="contact-form" id="contactForm" action="mailto:jahradsewnath@gmail.com" method="POST">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="address">Service Address *</label>
+                            <input type="text" id="address" name="address" required>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="vehicle">Vehicle Year/Make/Model *</label>
+                                <input type="text" id="vehicle" name="vehicle" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="service">Service Needed</label>
+                                <select id="service" name="service">
+                                    <option value="">Select a service</option>
+                                    <option value="oil-change">Oil Change</option>
+                                    <option value="brake-service">Brake Service</option>
+                                    <option value="battery">Battery Replacement</option>
+                                    <option value="diagnostics">Diagnostics</option>
+                                    <option value="maintenance">General Maintenance</option>
+                                    <option value="other">Other/Not Sure</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="urgency">When do you need service?</label>
+                            <select id="urgency" name="urgency">
+                                <option value="flexible">I'm flexible</option>
+                                <option value="this-week">This week</option>
+                                <option value="asap">ASAP</option>
+                                <option value="emergency">Emergency - vehicle won't start</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Additional Details</label>
+                            <textarea id="message" name="message" rows="4"></textarea>
+                        </div>
+
+                        <!-- Hidden field so you know where the request came from -->
+                        <input type="hidden" name="_subject" value="New Quote Request - QuickFix Mobile">
+
+                        <button type="submit" class="btn btn-primary btn-large">Send Quote Request</button>
+                    </form>
+
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info-section">
+                    <div class="contact-card">
+                        <h2>Get Immediate Help</h2>
+                        <div class="contact-method">
+                            <div class="contact-icon">📞</div>
+                            <div>
+                                <h3>Call Now</h3>
+                                <p><a href="tel:+0799085901" class="phone-link">079 908 5901</a></p>
+                                <p><small>Available Mon-Fri 8AM-5PM</small></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">📧</div>
+                            <div>
+                                <h3>Email Us</h3>
+                                <p><a href="mailto:andrew1wilk@gmail.com">andrew1wilk@gmail.com</a></p>
+                                <p><small>We'll respond ASAP</small></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <h3>Service Areas</h3>
+                                <p>Ekurhuleni</p>
+                                <p><small>Call to confirm we serve your area</small></p>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                    
+                    <div class="hours-card">
+                        <h3>Business Hours</h3>
+                        <div class="hours-list">
+                            <div class="hours-item">
+                                <span>Monday - Friday</span>
+                                <span>8:00 AM - 5:00 PM</span>
+                            </div>
+                            <div class="hours-item">
+                                <span>Saturday</span>
+                                <span>8:00 AM - 1:00 PM</span>
+                            </div>
+                            <div class="hours-item">
+                                <span>Sunday</span>
+                                <span>Closed</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ Section -->
+            <div class="contact-faq">
+                <h2>Frequently Asked Questions</h2>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h3>How quickly can you come to my location?</h3>
+                        <p>
+                            We always try to accommodate customers as soon as possible.
+                            But usually with a 2-3 day lead time depending on location and availability.
+                        </p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>What areas do you serve?</h3>
+                        <p>
+                            We serve the greater Ekurhuleni area. With a call out fee subject to distance traveled
+                            Call us to confirm service to your specific location.
+                        </p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Do you provide warranties on your work?</h3>
+                        <p>
+                            Yes! All repairs come with our standard warranty. Parts are covered by manufacturer
+                            warranties, and our labor is guaranteed for your peace of mind.
+                        </p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>What payment methods do you accept?</h3>
+                        <p>
+                            We accept cash and EFT deposits. Quoted parts to be paid before work begins. 
+                            Full payment is due upon completion of service.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ADS Mobile Service</h3>
+                    <p>Professional mobile auto repair services at your location. Licensed, insured, and ready to help.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p>📞 Phone: 079 908 5901</p>
+                    <p>📧 Email: andrew1wilk@gmail.com</p>
+                    <p>🕒 Hours: Mon-Fri 8AM-5PM</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ADS Mobile Service. All rights reserved.</p>
+                <img src="/Assets/Logo.jpg" alt="ADS Mobile Service Logo" class="footer-logo" />
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
