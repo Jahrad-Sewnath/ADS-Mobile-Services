@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const urgency = document.getElementById("urgency").value;
             const message = document.getElementById("message").value;
 
-            const mailtoLink = `mailto:jahradsewnath@gmail.com
+            const mailtoLink = `mailto:andrew1wilk@gmail.com
             ?subject=${encodeURIComponent("New Quote Request - QuickFix Mobile")}
             &body=${encodeURIComponent(
                 `Full Name: ${name}
